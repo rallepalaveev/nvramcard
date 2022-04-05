@@ -1,6 +1,6 @@
 # nvramcard
-A card for Apple][ computers with 512kB NVRAM
-A periferal card for Apple][
+A card for Apple // computers with 512kB NVRAM
+A periferal card for Apple //
 
 This is a project I resurrected in 2021, based on my original design cerca 1995 - ROMcard, based on 8 x 64C512 EPROM chips.
 The NVRAM card is intended to work with NVRAM chip 39SF040 and compatible. The NVRAM is organized in
@@ -17,3 +17,31 @@ has functionality that it captures the boot sequence of the computer and execute
 DOS. If ”\” is pressed while performing a cold reset – the boot sequence will override the ROMcard2 boot so floppy disk can boot.
 Programs are called with “&” followed by the number of the program &2 calls the program which returns a list of programs recorded
 onto ROMcard2 www.clintech.net/romcard
+
+Copyright (c) 2021 Ralle Palaveev
+All rights reserved.
+
+Redistribution and use in source, binary, and manufactued forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code and design files must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary or manufactured form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+   or hardware must display the following acknowledgement:
+   This product includes software and hardware developed by Ralle Palaveev.
+4. Neither the name of Ralle Palaveev nor the
+   names of its contributors may be used to endorse or promote products
+   derived from this software or hardware without specific prior written permission.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
