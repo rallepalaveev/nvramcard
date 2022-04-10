@@ -16,7 +16,7 @@ at an address $xxx00 – multiple of #100 16 bytes with the name of the program 
 has functionality that it captures the boot sequence of the computer and executes the first program recorded onto the NVRAM – usually
 DOS. If ”\” is pressed while performing a cold reset – the boot sequence will override the ROMcard2 boot so floppy disk can boot.
 Programs are called with “&” followed by the number of the program &2 calls the program which returns a list of programs recorded
-onto ROMcard2 www.clintech.net/romcard
+onto ROMcard2. Edit 10 Apr 2022: added firmware for ProDOS - functions as a standard block device. www.clintech.net/romcard
 
 Copyright (c) 2021 Ralle Palaveev
 All rights reserved.
