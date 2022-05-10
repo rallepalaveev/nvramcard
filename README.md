@@ -2,7 +2,7 @@
 A card for Apple // computers with 512kB NVRAM
 A periferal card for Apple //
 
-This is a project I resurrected in 2021, based on my original design cerca 1995 - ROMcard, based on 8 x 64C512 EPROM chips.
+This is a project I resurrected in 2021, based on my original design cerca 1995 - ROMcard, based on 8 x 27C512 EPROM chips.
 The NVRAM card is intended to work with NVRAM chip 39SF040 and compatible. The NVRAM is organized in
 256 banks of 2kB each, numbered #00 to #FF Banks are selected by writing a byte (#00 - #FF) into $C0Nx, where N = 8 + [slot number]
 When writing to $C0Nx at the same time the NVRAM chip is also enabled. When a bank is selected, its content are seen in the address
